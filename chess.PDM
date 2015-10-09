@@ -1,0 +1,93 @@
+[Root]
+Most Recent Package=chess
+
+
+[Package|chess|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\chess\install
+
+[Package|chess|Configure DAO ISAMs]
+Applicable=No
+
+[Package|chess|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|chess|Files Found]
+
+[Package|chess|Files Released]
+
+[Package|chess|Missing Dependency Information]
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+
+[Package|chess|Out-of-Date Dependency Information]
+
+[Package|chess|Files Added]
+
+[Package|chess|Files Removed]
+
+[Package|chess|Files In Project]
+E:\chess\chess.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\SysWOW64\COMCTL32.OCX=Yes
+
+[Package|chess|Configure Registry Files]
+Applicable=No
+
+[Package|chess|Configure Remote Servers]
+Applicable=No
+
+[Package|chess|Install Locations]
+E:\chess\chess.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\SysWOW64\COMCTL32.OCX=$(WinSysPath)
+
+[Package|chess|Configure Shared Files]
+Applicable=Yes
+E:\chess\chess.exe=No
+
+[Package|chess|Distribution]
+Type=single
+Size=
+Title=Chess
+
+[Package|chess|Package]
+PackageFolder=E:\chess\install
+ProjectFolder=E:\chess
+ServerSideCab=
+File1=E:\chess\install\setup.exe
+File2=E:\chess\install\Setup.Lst
+File3=E:\chess\install\chess.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|chess|IconGroups]
+Group0=Chess
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|chess|Chess]
+Icon1=chess.EXE
+Title1=Chess
+StartIn1=$(AppPath)
+Key1=Icon1
